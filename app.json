@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "ToDo App",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "O app precisa da sua localização para registrar onde a tarefa foi criada."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
